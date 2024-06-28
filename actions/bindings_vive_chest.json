@@ -1,0 +1,34 @@
+{
+  "action_manifest_version" : 0,
+  "alias_info" : {},
+  "bindings" : {
+    "/actions/default": {
+	  "sources": [
+		{
+		   "inputs" : {
+			  "click" : {
+				 "output" : "/actions/default/in/trigger"
+			  }
+		   },
+		   "mode" : "button",
+		   "path" : "/user/chest/input/trigger"
+		},
+		{
+		   "inputs" : {
+			  "click" : {
+				 "output" : "/actions/default/in/grip"
+			  }
+		   },
+		   "mode" : "button",
+		   "path" : "/user/chest/input/grip"
+		}
+	  ]
+    }
+  },
+  "category" : "steamvr_input",
+  "controller_type" : "vive_tracker_chest",
+  "description" : "Default two handed bindings with movement on the off hand",
+  "name" : "Dual Controllers (Movement on Off Hand)",
+  "options" : {},
+  "simulated_actions" : []
+}

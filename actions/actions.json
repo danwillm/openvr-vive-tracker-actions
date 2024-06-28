@@ -1,0 +1,35 @@
+{
+  "default_bindings": [
+    {
+      "binding_url" : "bindings_oculus.json",
+      "controller_type" : "oculus_touch"
+    },
+	{
+      "binding_url" : "bindings_vive_chest.json",
+      "controller_type" : "vive_tracker_chest"
+    }
+  ],
+  "action_sets": [
+    {
+      "name" : "/actions/default",
+      "usage" : "InputActionSetUsage_SingleController"
+    }
+  ],
+  "actions": [
+    {
+      "name": "/actions/default/in/trigger",
+      "type": "boolean"
+    },
+    {
+      "name" : "/actions/default/in/grip",
+      "type" : "boolean"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/in/trigger": "Test Trigger",
+      "/actions/default/in/grip": "Test Grip"
+    }
+  ]
+}
